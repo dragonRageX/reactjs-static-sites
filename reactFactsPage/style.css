@@ -1,0 +1,55 @@
+body
+{
+    margin: 0%;    
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.nav-items li
+{
+    margin: 10px;
+    text-align: center;
+}
+
+.nav-container
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+
+.nav-container img
+{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+header
+{
+    padding-bottom: 9px;
+    background: linear-gradient(to bottom, black, white);
+}
+
+footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background: green;
+    padding: 8px 0px 5px 0px;
+}
+
+footer small
+{
+    margin: 5px;
+}
